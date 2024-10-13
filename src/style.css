@@ -1,0 +1,80 @@
+@font-face {
+    font-family: 'Arcade';
+    src: url(public-pixel-font/PublicPixel-z84yD.ttf);
+}
+
+BODY {
+    background-color: black;
+}
+
+H2,
+H3,
+H4,
+H5,
+H6,
+TH,
+TD {
+    font-family: arial, helvetica, sans-serif;
+}
+
+H1 {
+    font-size: 38px;
+    font-family: Arcade, sans-serif;
+    color: green;
+}
+
+#mainTitle {
+    background-color: black;
+    width: 20%;
+  }
+#svgContainer {
+background-color:black;
+width: 30%;
+margin:0 auto;
+}
+#gameNotes {
+background-color:black;
+width: 60%;
+float: right;
+font-family: Arcade;
+font-size: 20px;
+color:white;
+}
+
+svg {
+    background-color: gray;
+}
+
+p.highlight {
+    color: red;
+}
+
+.restart {
+    font-family: Arcade, sans-serif;
+    font-size: 15px
+  }
+
+.gameover {
+    font-family: Arcade, sans-serif;
+    font-size: 50px
+}
+
+.vehicle {
+    fill: #D6E567 
+}
+
+.plank {
+    fill: #C19A6B
+  }
+.fly {
+    fill: orange
+  }
+.crocodile {
+    fill: #16A085
+  }
+.crochead {
+    fill: #2ECC71
+  }
+.block {
+    fill: green
+}

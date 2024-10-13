@@ -1,0 +1,65 @@
+<html>
+  <head>
+    <title>FIT2102 A1 2022</title>
+  </head>
+  <body>
+<!-- 
+    <iframe src="../src/bgm/silence.mp3" type="audio/mpeg" allow="autoplay" id="audio" style="display: none"></iframe>
+    <audio id="player" controls autoplay>
+      <source src= "../src/bgm/frogger_music_orchestral_trimmed_softened.mp3" type="audio/mpeg">
+    </audio> -->
+    <div id="mainTitle">
+      <h1 id="title">Frogger</h1>
+    </div>
+    
+    <div id="svgContainer" style="float: left; margin:5px">
+      <svg id="svgCanvas" width="600" height="550">
+        <g id="finalzone" fill="gray" stroke="black" stroke-width="5">
+          <rect width="600" height="50" y="0"/>
+        </g>
+        <g id="safezone" fill="white" stroke="black" stroke-width="5">
+          <rect width="600" height="50" y="250"/>
+          <rect width="600" height="50" y="500"/>
+        </g>
+        <g id="river" fill="#AFDCEC" stroke="black" stroke-width="5">
+          <rect width="600" height="200" y="50"/>
+        </g>
+        <g id="road" fill="grey" stroke="black" stroke-width="5">
+          <rect width="600" height="200" y="300"/>
+        </g>
+        <rect id="frog" width="30", height="30", x="300", y="510", fill="green"></rect>
+      </svg> 
+    </div>
+
+    <div id="gameNotes">
+      <text id="levelTitle" >Level: </text>
+      <text id="level" >1</text>
+      <text id="scoreTitle" >Score: </text>
+      <text id="score" >0</text>
+      <text id="highscoreTitle" >Highscore: </text>
+      <text id="highscore" >0</text>
+      <text id="livesTitle" style="color:red">Lives: </text>
+      <text id="lives" style="color:red">3</text>
+
+      <p id="intro">Welcome to <span style="color:green">Frogger!</span></p>
+      <p id="controls" style="color:green">CONTROLS</p>
+      <table id="controlTable", style="color:white">
+        <tr><td><span style="font-family:Arcade">Forward</span></td><td><div id="ArrowUp" class="key">&#8679;</div></td></tr>
+        <tr><td><span style="font-family:Arcade">Backwards</span></td><td><div id="ArrowDown" class="key">&#8681;</div></td></tr>
+        <tr><td><span style="font-family:Arcade">Left</span></td><td><div id="ArrowLeft" class="key">&#8678;</div></td></tr>
+        <tr><td><span style="font-family:Arcade">Right</span></td><td><div id="ArrowRight" class="key" style="width:50px">&#8680;</div></td></tr>
+        <tr><td><span style="font-family:Arcade">Restart Game</span></td><td>R</td></tr>
+      </table>
+
+      <p id="rules" style="color:green">RULES</p>
+      <p id="rules2">Control the frog and reach the five <span style="color:#E74C3C">destinations</span> at the end to reach the next level</p>
+      <p id="rules3">Cross the <span style="color:gray">road</span> and avoid the incoming <span style="color:#D6E567">traffic!</span></p>
+      <p id="rules4">Cross the <span style="color:#AFDCEC">river</span> by hopping on the <span style="color:#C19A6B">planks</span> and <span style="color:#16A085">crocodiles
+      </span> (Tip: Avoid the <span style="color:#2ECC71">crocodile head</span>!)</p> 
+      <p id="rules5">Once your lives hit 0, it's game over! :(</p>
+      <p id="rules6">Earn points by moving forward, reaching the destination and collecting <span style="color:orange">flies</span> at the destination</p>
+      <p id="rules7">Get the highest score!</p>
+
+    </div>
+  </body>
+</html>
