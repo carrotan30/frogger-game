@@ -1,4 +1,4 @@
-# FIT2102 Assignment 1
+# Frogger Web-based Game
 
 All of your changes, code, and game files should be in the src folder.
 
